@@ -1,0 +1,108 @@
+/* .card .dasboardBackground{
+    background-image:linear-gradient(#DFEFF5, #A0D9F1) ;
+    border: 1px solid black;
+} */
+.dashboard_table td{
+    height: 62px;
+}
+.dashboard_table td a{
+    color: #333333;
+}
+.qmstable_hightlight{
+    font-size: 15px;
+}
+
+
+td > a:hover {
+        color: #2196f3;
+        text-align: center;
+        text-decoration-color: #2196f3;
+        text-decoration-line: underline;
+}
+      .dashboard_card {
+        
+        transition:none !important;
+        width: 126px;
+        
+      }
+      
+      .dashboard_card:hover {
+        /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3); */
+        animation: mymove infinite;
+        /* text-align: center; */
+        font-size: 20px;
+        border-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #861F41;
+        color: #FFFFFF!important;
+}
+    .dashboard_card:hover a{
+        color: #ffffff;
+    }
+        @keyframes mymove {
+            50% {box-shadow: 10px 20px 30px blue;}
+          }
+        
+        .dashboard_card a:hover{
+            color: #ffffff;
+            text-decoration: none;
+        }
+          
+.align-center{
+    text-align: center;
+}
+  /* table.table tr .dasboardTableBorder{
+    border-left: 1px solid blue!important;
+} */
+
+.multiselect-filter .dashboard-filter{
+    padding-left: 1.0685rem !important;
+}
+
+/* option[value=""][disabled] {
+    display: none;
+    } */
+
+
+    .dashboardIndexColor{
+        background-color: #861F41;
+        color: #FFFFFF;
+    }
+    /* .dateColor{
+        background-color: #FC6346;
+    } */
+    .colorOptions:active{
+        color: #FFFFFF!important;
+    }
+
+    /* .styleLabel{
+        margin-right: 0.5rem;
+    } */
+
+    /* .datePicker_Placement{
+        /* margin-left: 100px; */
+        /* z-index: 9999;
+    } */ 
+
+    .form-control .pending_filter_dropdown :first-child{
+        color: white;
+    }
+
+    /* @media (min-width: 1200px) {
+        .modal-query {
+           max-height: 50px;
+        }
+     } */
+
+     @media only screen and (max-width: 768px){
+        .significant_filter{
+            width: 100% !important;
+            margin-left: 0px !important;
+        }
+     }
+     @media only screen and (max-width: 768px){
+        .pending_filter{
+            width: 100% !important;
+            margin-left: 0px !important;
+        }
+     }
